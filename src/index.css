@@ -1,13 +1,44 @@
-body {
+/* index.css */
+
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Saira+Extra+Condensed:500");
+
+/* Minimal Reset */
+
+html,
+body,
+div,
+h1,
+h2,
+p,
+section,
+audio {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 24px;
+}
+
+body {
+  align-items: center;
+  background: black;
+  color: rgb(229, 177, 58);
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  justify-content: center;
+  line-height: 1.25;
+  overflow: hidden;
+}
+
+div[id="root"] {
+  width: 100%;
 }
