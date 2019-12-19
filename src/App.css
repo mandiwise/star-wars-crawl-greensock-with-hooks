@@ -4,7 +4,8 @@
   width: 100%;
 }
 
-.intro {
+.intro,
+.title {
   left: 50%;
   opacity: 0;
   position: absolute;
@@ -16,4 +17,11 @@
 .intro p {
   color: rgb(75, 213, 238);
   font-size: 1.25rem;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 18rem;
 }
