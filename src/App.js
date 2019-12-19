@@ -8,8 +8,13 @@ function App() {
   const intro = useRef();
 
   useEffect(() => {
-    gsap.to(intro.current, { opacity: 1, delay: 1, duration: 4.5 });
-    gsap.to(intro.current, { opacity: 0, delay: 5.5, duration: 1.5 });
+    let tl = new gsap.timeline();
+
+    tl.to(intro.current, {
+      opacity: 1,
+      delay: 1,
+      duration: 4.5
+    }).to(intro.current, { opacity: 0, duration: 1.5 });
   }, []);
 
   return (
