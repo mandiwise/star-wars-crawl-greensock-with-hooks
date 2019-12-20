@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/star-wars-crawl-greensock-with-hooks/precache-manifest.a7da8de41b2e6eb0de0c9973738c5ed8.js"
+  "/star-wars-crawl-greensock-with-hooks/precache-manifest.52fe7c509350c8a858789f82c7b5396c.js"
 );
 
 self.addEventListener('message', (event) => {

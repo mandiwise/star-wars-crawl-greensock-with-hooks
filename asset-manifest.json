@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/star-wars-crawl-greensock-with-hooks/static/css/main.289ccf88.chunk.css",
-    "main.js": "/star-wars-crawl-greensock-with-hooks/static/js/main.46434b61.chunk.js",
-    "main.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/main.46434b61.chunk.js.map",
-    "runtime-main.js": "/star-wars-crawl-greensock-with-hooks/static/js/runtime-main.cbd25eb0.js",
-    "runtime-main.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/runtime-main.cbd25eb0.js.map",
-    "static/js/2.6754caaf.chunk.js": "/star-wars-crawl-greensock-with-hooks/static/js/2.6754caaf.chunk.js",
-    "static/js/2.6754caaf.chunk.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/2.6754caaf.chunk.js.map",
+    "main.js": "/star-wars-crawl-greensock-with-hooks/static/js/main.d06ae3d5.chunk.js",
+    "main.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/main.d06ae3d5.chunk.js.map",
+    "runtime-main.js": "/star-wars-crawl-greensock-with-hooks/static/js/runtime-main.35e632b9.js",
+    "runtime-main.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/runtime-main.35e632b9.js.map",
+    "static/js/2.0f1f55f5.chunk.js": "/star-wars-crawl-greensock-with-hooks/static/js/2.0f1f55f5.chunk.js",
+    "static/js/2.0f1f55f5.chunk.js.map": "/star-wars-crawl-greensock-with-hooks/static/js/2.0f1f55f5.chunk.js.map",
     "index.html": "/star-wars-crawl-greensock-with-hooks/index.html",
-    "precache-manifest.a7da8de41b2e6eb0de0c9973738c5ed8.js": "/star-wars-crawl-greensock-with-hooks/precache-manifest.a7da8de41b2e6eb0de0c9973738c5ed8.js",
+    "precache-manifest.52fe7c509350c8a858789f82c7b5396c.js": "/star-wars-crawl-greensock-with-hooks/precache-manifest.52fe7c509350c8a858789f82c7b5396c.js",
     "service-worker.js": "/star-wars-crawl-greensock-with-hooks/service-worker.js",
     "static/css/main.289ccf88.chunk.css.map": "/star-wars-crawl-greensock-with-hooks/static/css/main.289ccf88.chunk.css.map",
-    "static/js/2.6754caaf.chunk.js.LICENSE": "/star-wars-crawl-greensock-with-hooks/static/js/2.6754caaf.chunk.js.LICENSE",
+    "static/js/2.0f1f55f5.chunk.js.LICENSE": "/star-wars-crawl-greensock-with-hooks/static/js/2.0f1f55f5.chunk.js.LICENSE",
     "static/media/logo.svg": "/star-wars-crawl-greensock-with-hooks/static/media/logo.d17c00c9.svg",
     "static/media/volume_off.svg": "/star-wars-crawl-greensock-with-hooks/static/media/volume_off.a3d484ff.svg",
     "static/media/volume_on.svg": "/star-wars-crawl-greensock-with-hooks/static/media/volume_on.ef7f87ab.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbd25eb0.js",
-    "static/js/2.6754caaf.chunk.js",
+    "static/js/runtime-main.35e632b9.js",
+    "static/js/2.0f1f55f5.chunk.js",
     "static/css/main.289ccf88.chunk.css",
-    "static/js/main.46434b61.chunk.js"
+    "static/js/main.d06ae3d5.chunk.js"
   ]
 }
