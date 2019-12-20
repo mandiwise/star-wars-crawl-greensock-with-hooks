@@ -1,13 +1,18 @@
 import gsap from "gsap";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import "./App.css";
 import logo from "./logo.svg";
+import volumeOff from "./volume_off.svg";
+import volumeOn from "./volume_on.svg";
 
 function App() {
   const intro = useRef();
   const title = useRef();
   const content = useRef();
+  const audio = useRef();
+
+  const [muted, setMuted] = useState(true);
 
   useEffect(() => {
     let tl = new gsap.timeline();
@@ -17,8 +22,14 @@ function App() {
       delay: 1,
       duration: 4.5
     })
-      .to(intro.current, { opacity: 0, duration: 1.5 })
-      .set(title.current, { opacity: 1, scale: 2.75 })
+      .to(intro.current, {
+        opacity: 0,
+        duration: 1.5,
+        onComplete: () => {
+          audio.current.play();
+        }
+      })
+      .set(title.current, { opacity: 1, scale: 2.75, delay: 0.5 })
       .to(title.current, { scale: 0.05, ease: "power2", duration: 8 })
       .to(title.current, { opacity: 0, duration: 1.5 }, "-=1.5")
       .to(content.current, { top: "-170%", duration: 200 });
@@ -37,7 +48,7 @@ function App() {
       </section>
       <section className="crawl">
         <div className="content" ref={content}>
-          <h1 className="episode-number">Episode 7</h1>
+          <h1 className="episode-number">Episode X</h1>
           <h2 className="episode-title">THE APP AWAKENS</h2>
           <p>
             The Development Team Lead has vanished. In her absence, the sinister
@@ -56,6 +67,26 @@ function App() {
           </p>
         </div>
       </section>
+      <audio ref={audio} muted>
+        <source
+          type="audio/mpeg"
+          src="https://ia801501.us.archive.org/23/items/StarWars_20180709/Star%20Wars.mp3"
+        />
+      </audio>
+      <button
+        className="volume"
+        type="button"
+        onClick={() => {
+          audio.current.muted = !muted;
+          setMuted(!muted);
+        }}
+      >
+        {muted ? (
+          <img src={volumeOff} alt="Volume is off" />
+        ) : (
+          <img src={volumeOn} alt="Volume is on" />
+        )}
+      </button>
     </div>
   );
 }
